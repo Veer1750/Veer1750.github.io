@@ -1,4 +1,5 @@
 flowchart TD
+
     Start([Start]) --> GenerateNumber[Generate Random Number between 1-100]
     GenerateNumber --> UserInput[Ask User to Guess the Number]
     
